@@ -1,0 +1,33 @@
+<idea-plugin>
+    <id>com.peilian.yii2-url</id>
+    <name>Yii2-Url</name>
+    <vendor email="kearonwong@gmail.com" url="http://github.com/kearons">kearon wong</vendor>
+    <version>0.0.2</version>
+
+    <description><![CDATA[
+    <a href="">Github</a> <br>
+    Supported Quick Search for Yii2 project.<br>
+    Inspired by RestfulToolkit. <br>
+    ( Windows: Ctrl + \; Mac: Command + \ )
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.jetbrains.php</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- url navi -->
+        <action id="Toolkit.GotoService" class="pers.yiiurl.action.GotoRequestMappingAction"
+                text="_Service" description="Go to Service"
+                icon="AllIcons.Actions.Search">
+            <add-to-group group-id="GoToTargetEx" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl BACK_SLASH" />
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt N"/>
+        </action>
+    </actions>
+</idea-plugin>

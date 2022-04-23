@@ -1,0 +1,1 @@
+[https://confluence.jetbrains.com/display/PhpStorm/Setting-up+environment+for+PhpStorm+plugin+development]
