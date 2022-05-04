@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>com.peilian.yii2-url</id>
+    <id>pers.kearon.yii2-url</id>
     <name>Yii2-Url</name>
     <vendor email="kearonwong@gmail.com" url="http://github.com/kearons">kearon wong</vendor>
     <version>0.0.2</version>
