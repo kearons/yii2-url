@@ -5,16 +5,18 @@
     <version>0.0.2</version>
 
     <description><![CDATA[
-    <a href="">Github</a> <br>
-    Supported Quick Search for Yii2 project.<br>
+    Supported url quick-search for Yii2 projects.<br>
     Inspired by RestfulToolkit. <br>
-    ( Windows: Ctrl + \; Mac: Command + \ )
+    ( Windows: Ctrl + \; Mac: Command + \ ) <br>
+    <a href="https://github.com/kearons/yii2-url">Github</a>
     ]]></description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
     <depends>com.intellij.modules.platform</depends>
     <depends>com.jetbrains.php</depends>
+
+    <idea-version since-build="193"/>
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
